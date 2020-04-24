@@ -1,5 +1,5 @@
 
-# Frontend Mentor - Fylo landing page with dark theme and features grid
+# Frontend Mentor - Easybank
 
 Link para o site: https://christyschott.github.io/easybank.github.io/
 

@@ -96,7 +96,7 @@ h1 {
 
 .mockups {
     top: -120px;
-    right: -100px;
+    right: 0;
     width: 100%;
     position: absolute;
     z-index: 2;

@@ -209,6 +209,10 @@ h1 {
     color: var(--Grayish-Blue);
 }
 
+.footer-link:hover {
+    color: var(--White);
+}
+
 .footer-right {
     display: flex;
     flex-direction: column;

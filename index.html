@@ -3,30 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-    <title>Frontend Mentor | Easybank landing page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    
+    <title>Frontend Mentor | Easybank landing page</title>
 </head>
 <body>
+    <div class="bg-header"></div>
     <header class="header">
-        <div class="logo-box">
-            <img src="images/logo.svg" alt="" class="logo">
-        </div>
-
-            <ul class="header-list">
-                <li class="header-list-item"><a href="#" class="header-list-link">Home</a></li>
-                <li class="header-list-item"><a href="#" class="header-list-link">About</a></li>
-                <li class="header-list-item"><a href="#" class="header-list-link">Contact</a></li>
-                <li class="header-list-item"><a href="#" class="header-list-link">Blog</a></li>
-                <li class="header-list-item"><a href="#" class="header-list-link">Careers</a></li>
+        <nav class="nav">
+    
+          <div class="nav__content">
+            <div class="nav__logo">
+              <img src="images/logo.svg" alt="logo">
+            </div>
+    
+            <ul class="nav__items">
+              <li class="nav__item header-list-item"><a href="#" class="nav__link header-list-link">Home</a></li>
+              <li class="nav__item header-list-item"><a href="#" class="nav__link header-list-link">About</a></li>
+              <li class="nav__item header-list-item"><a href="#" class="nav__link header-list-link">Contact</a></li>
+              <li class="nav__item header-list-item"><a href="#" class="nav__link header-list-link">Blog</a></li>
+              <li class="nav__item header-list-item"><a href="#" class="nav__link header-list-link">Careers</a></li>
             </ul>
-            
-        <button class="btn-primary btn-header">Request Invite</button>
-    </header>
+    
+            <button class="btn-primary nav__btn btn-header">Request Invite</button>
+    
+            <div class="nav__burger">
+              <img class="burger" src="images/icon-hamburger.svg" alt="hamburger">
+              <img class="close" src="images/icon-close.svg" alt="close">
+            </div>
+          </div>
+    
+        </nav>
+      </header>
 
-        <div class="container">
 
         <section class="cover">
             <div class="cover-text">
@@ -173,7 +185,6 @@
             </div>
 
     </footer>
-</div>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

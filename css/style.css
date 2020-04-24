@@ -105,6 +105,13 @@ h1 {
 
 
 /* choose START */
+.bg-choose {
+    grid-column: 1 / -1;
+    grid-row: 3 / span 1;
+
+    background: var(--Very-Light-Gray);
+}
+
 .choose {
     grid-column: 2 / 10;
     grid-row: 3 / span 1;
@@ -215,6 +222,10 @@ h1 {
     }
 
     .choose {
+        grid-row: 4 / 5;
+    } 
+
+    .bg-choose {
         grid-row: 4 / 5;
     }
 

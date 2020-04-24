@@ -3,6 +3,8 @@
 
 Link para o site: https://christyschott.github.io/easybank.github.io/
 
+:warning: Optei por não utilizar Sass pois o projeto é pequeno, caso fosse maior eu utilizaria o pré-processador. Assim, apenas dividi o header e o footer em arquivos CSS diferentes. :warning:
+
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
